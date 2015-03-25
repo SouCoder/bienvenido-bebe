@@ -1,0 +1,52 @@
+* { margin: 0px; padding: 0px; list-style: none; text-decoration: none; }
+
+body { background-color: lightgrey; }
+
+header { display: flex; margin: 0px auto; width: 80%; justify-content: space-between; }
+header .logo { position: relative; width: 150px; height: auto; top: 20px; left: 50px; }
+header .header-content { position: relative; flex-grow: 1; }
+header .header-content .contact-item { display: flex; float: left; margin-top: 45px; margin-left: 200px; }
+header .header-content .contact-item > p { margin-right: 15px 10px; padding: 1px 15px; border-right: 1px solid grey; }
+header .header-content .shopp-cart { display: flex; padding: 10px 15px; align-items: center; margin-top: 10px; }
+header .header-content .shopp-cart span { font-size: 70px; }
+header .header-content .shopp-cart .elem-p { align-items: flex-end; display: flex; flex-direction: column; padding-left: 15px; }
+header .header-content .shopp-cart .elem-p .price { font-size: 30px; }
+header .header-content .shopp-cart .elem-p .items { font-size: 0.8em; }
+header .header-content .menu { display: flex; position: absolute; width: 80%; bottom: 0px; right: 40px; border-radius: 10px; background-color: grey; flex-grow: 1; }
+header .header-content .menu .menu-item { display: flex; justify-content: space-around; }
+header .header-content .menu .menu-item .menu-option { padding: 15px 0px; width: 100px; text-align: center; }
+header .header-content .menu #searchForm { position: relative; margin-top: 10px; left: 100px; }
+header .header-content .menu #searchForm #searchText { border: none; border-radius: 5px; padding: 5px 0px; }
+header .header-content .menu #searchForm #searchButton { border-radius: 5px; border: none; padding: 3px; }
+
+section { width: 80%; margin: 0px auto; position: relative; }
+section > h2 { position: absolute; font-size: 2.5em; right: 25%; }
+section > a { position: absolute; font-size: 1em; background-color: grey; right: 1%; bottom: 10px; padding: 10px 0px; width: 150px; text-align: center; border-radius: 10px; }
+section #slider { margin-top: 40px; }
+section #slider img { border-radius: 20px 20px 0px 0px; height: auto; }
+section #owl-demo { display: flex; justify-content: space-around; background-color: grey; border-radius: 0px 0px 20px 20px; }
+section #owl-demo .item { margin: 15px; }
+section #owl-demo .item img { display: block; width: 95%; height: auto; margin-top: 15px; border-radius: 10px; }
+section .content { display: flex; align-items: stretch; width: 100%; margin-top: 30px; }
+section .content > .item-content { height: 650px; display: flex; flex-direction: column; border-radius: 10px; align-items: center; width: 40; background-color: grey; }
+section .content > .item-content > .item-img { width: 80%; margin-top: 60px; padding: 10px; border: 2px solid white; }
+section .content > .item-content .item-title { align-self: flex-start; margin-left: 65px; margin-top: 40px; font-size: 2em; }
+section .content > .item-content .item-price { align-self: flex-start; margin-left: 65px; width: 120px; font-size: 1.8em; border-left: 1px dotted; border-right: 1px dotted; text-align: center; margin-top: 10px; }
+section .content > .item-content .elem-a { display: flex; flex-direction: column; align-self: flex-end; align-items: center; margin-right: 65px; position: relative; bottom: 70px; }
+section .content > .item-content .elem-a a { margin: 5px 0px; padding: 15px; border-radius: 5px; text-align: center; background-color: gold; width: 120px; }
+section .content > .item-content .elem-a a:first-child { background-color: white; }
+section .content .other-item { display: flex; flex-direction: column; align-items: flex-end; justify-content: center; }
+section .content .other-item > .item-content { display: flex; width: 90%; height: 250px; align-items: center; position: relative; border-bottom: 1px solid grey; }
+section .content .other-item > .item-content .item-img { width: 30%; height: 65%; }
+section .content .other-item > .item-content .item-title { align-self: flex-start; margin-top: 80px; margin-left: 15px; font-size: 2em; }
+section .content .other-item > .item-content .item-price { align-self: flex-start; font-size: 1.5em; position: absolute; top: 130px; left: 190px; width: 120px; border-left: 1px dotted; border-right: 1px dotted; text-align: center; }
+section .content .other-item > .item-content .elem-a { display: flex; flex-direction: column; align-self: flex-end; margin-left: 130px; position: relative; bottom: 70px; }
+section .content .other-item > .item-content .elem-a a { margin: 5px 0px; padding: 15px; border-radius: 5px; text-align: center; background-color: gold; width: 110px; }
+section .content .other-item > .item-content .elem-a a:first-child { background-color: white; }
+
+.article-content { display: flex; margin-top: 50px; }
+
+footer { width: 80%; margin: 0px auto; border-top: 1px solid grey; text-align: center; margin-top: 50px; font-size: 1.2em; }
+footer p { margin: 10px 0px; }
+
+/*# sourceMappingURL=style.css.map */
